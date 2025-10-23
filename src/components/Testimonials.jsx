@@ -1,10 +1,10 @@
 
 import React from "react";
 import "../styles/Testimonials.css";
-import johnImg from "../assets/Maletest.png";
+import johnImg from "../assets/maletest.png";
 import ngoziImg from "../assets/testimgirl.png";
-import sarahImg from "../assets/Maletest.png";
-import michaelImg from "../assets/Maletest.png";
+import sarahImg from "../assets/maletest.png";
+import michaelImg from "../assets/maletest.png";
 
 const quotes = [
   {
