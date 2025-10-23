@@ -1,0 +1,140 @@
+/* Contact Section */
+.section {
+  padding: 4rem 2rem;
+}
+
+.container-custom {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-layout {
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+/* Card Containers */
+.contact-card {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  padding: 24px;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.contact-left {
+  flex: 1 1 360px;
+  min-width: 280px;
+}
+
+.contact-right {
+  flex: 1 1 520px;
+  min-width: 300px;
+}
+
+/* Text + Headings */
+.contact-title {
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.contact-subtitle {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.contact-text {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.contact-location {
+  margin-top: 12px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Social Icons */
+.contact-socials {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+  align-items: center;
+}
+
+.contact-icon {
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.contact-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Form Styles */
+form label {
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 6px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: transparent;
+  color: #fff;
+}
+
+form textarea {
+  resize: none;
+}
+
+form button {
+  padding: 10px 18px;
+  border-radius: 10px;
+  background: #000;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #111;
+}
+
+/* Success Message */
+.contact-success {
+  text-align: center;
+  color: #fff;
+}
+
+.contact-success h3 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contact-success button {
+  margin-top: 20px;
+  padding: 10px 18px;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-success button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+  .contact-layout {
+    flex-direction: column;
+  }
+}

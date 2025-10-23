@@ -1,0 +1,88 @@
+/* ===== Hero Section Styles ===== */
+
+.hero-section {
+  padding-top: 120px;
+  padding-bottom: 80px;
+  background: linear-gradient(135deg, #000 0%, #000 100%);
+  color: white;
+  overflow: hidden;
+}
+
+.hero-card h1 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-card h1 span {
+  color: var(--accent, #00aeef);
+}
+
+.hero-card p {
+  color: #ccc;
+  max-width: 500px;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+/* Buttons */
+.hero-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.hero-btn-primary {
+  background: white;
+  color: var(--text-dark, #111);
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* .hero-btn-primary:hover {
+  background: var(--accent, #00aeef);
+  
+  color: white;
+} */
+
+.hero-btn-outline {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 10px 18px;
+  border-radius: 10px;
+  background: transparent;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hero-btn-outline:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Image */
+.hero-image {
+  width: 80%;
+  max-width: 320px;
+  height: auto;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-section {
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  .hero-image {
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+}
