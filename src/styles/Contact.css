@@ -1,7 +1,7 @@
 /* Contact Section */
-.section {
+/* .section {
   padding: 4rem 2rem;
-}
+} */
 
 .container-custom {
   max-width: 1200px;
@@ -23,15 +23,15 @@
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.contact-left {
+/* .contact-left {
   flex: 1 1 360px;
   min-width: 280px;
-}
+} */
 
-.contact-right {
+ .contact-right {
   flex: 1 1 520px;
   min-width: 300px;
-}
+} 
 
 /* Text + Headings */
 .contact-title {
