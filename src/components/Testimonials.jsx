@@ -22,13 +22,13 @@ const quotes = [
   {
     name: "Alabi Anu",
     role: "Entrepreneur",
-    text: "We work with a lot of freelancers, but Femi stands out. His design sense is clean and he’s reliable, he delivers what he promises, and quickly.",
+    text: "I introduced Femi to brand to help revamp their website, and the results exceeded expectations. The communication was clear and the delivery was fast, .",
     avatar: ngoziImg,
   },
   {
     name: "Opeyemi Todowede",
     role: "Mausight",
-    text: "Working with Femi was really cool. He turned our rough concept into a clean, fast, and modern website that perfectly fits our audience. The communication was clear, the delivery was fast, and the results exceeded expectations.",
+    text: "Working with Femi was really cool. He turned our rough concept into a clean, fast, and modern website that perfectly fits our audience.",
     avatar: michaelImg,
   },
 ];

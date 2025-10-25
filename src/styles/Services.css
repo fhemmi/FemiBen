@@ -17,7 +17,7 @@
 .services-section p.section-desc {
   color: #666;
   margin-bottom: 60px;
-  line-height: 1.6;
+  line-height: 1.7;
   max-width: 600px;
   margin-inline: auto;
 }
@@ -70,8 +70,8 @@
 
 .service-card p {
   color: #555;
-  /* font-size: 0.95rem; */
-  line-height: 1.6;
+  font-size: 0.95rem;
+  line-height: 1.7;
 }
 
 /* Responsive */

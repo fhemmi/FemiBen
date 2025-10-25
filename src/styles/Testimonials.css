@@ -154,6 +154,7 @@
 .test-card p {
   color: var(--muted);
   margin-top: 10px;
+  font-size: 0.95rem;
 }
 
 .person {

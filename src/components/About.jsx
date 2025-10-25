@@ -2,6 +2,7 @@
 
 import React, { useRef, useState, useEffect } from "react";
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
+import { SiJavascript } from 'react-icons/si';
 import ScrollReveal from "./ScrollReveal";
 import {
   FaReact,
@@ -40,13 +41,15 @@ export default function About() {
   const opacity = useTransform(scrollYProgress, [0.2, 0.5, 0.8], [0, 1, 0]);
 
   const skills = [
-    { name: "React", icon: <FaReact size={22} color="#61DBFB" /> },
-    { name: "Bootstrap", icon: <FaBootstrap size={22} color="#7952B3" /> },
-    { name: "HTML", icon: <FaHtml5 size={22} color="#E34F26" /> },
+     { name: "HTML", icon: <FaHtml5 size={22} color="#E34F26" /> },
     { name: "CSS", icon: <FaCss3Alt size={22} color="#1572B6" /> },
-    //  { name: "Javascript", icon: <FaJavascript size={22} color="#1572B6" /> },
+    { name: "Bootstrap", icon: <FaBootstrap size={22} color="#7952B3" /> },
+    { name: "React", icon: <FaReact size={22} color="#61DBFB" /> },
+     { name: "Javascript", icon: <SiJavascript size={22} color="#1572B6" /> },
     { name: "Node.js", icon: <FaNodeJs size={22} color="#3C873A" /> },
-    { name: "Performance", icon: <FaBolt size={22} color="#f5b300" /> },
+    // { name: "Javascript", icon: <SiJavascript size={22} color="#1572B6" /> },
+    // { name: "Node.js", icon: <FaNodeJs size={22} color="#3C873A" /> },
+    // { name: "Performance", icon: <FaBolt size={22} color="#f5b300" /> },
   ];
 
   return (
@@ -67,8 +70,9 @@ export default function About() {
               crafting digital experiences that are elegant and human-centered.
             </p>
             <p>
-              My goal is to help founders and creators tell their story online
-              with purpose and performance.
+         I combine smart design with solid development to craft websites that not only look great but help brands and businesses grow and connect meaningfully with their audiences.
+
+Whether it’s a personal brand, startup, or established company, I focus on clean design, speed, and usability...  turning ideas into fast, reliable, and engaging web experiences.
             </p>
             <div className="about-focus">
               <strong>Current Focus:</strong> Building modern, fast websites and

@@ -25,9 +25,8 @@ export default function Hero() {
                   Hi, I’m <span>FemiBen</span>.
                 </h1>
                 <p>
-                  I build focused, beautiful web experiences for creators and
-                  small brands. Studio-level design and thoughtful development,
-                  shipped quickly within delivery time.
+                  I build fast, beautiful, and functional websites for brands and businesses that value great design and performance.
+Studio-level design, thoughtful development.. delivered on time
                 </p>
 
                 <div className="hero-buttons">
@@ -43,7 +42,7 @@ export default function Hero() {
 
             {/* Right Side - Image */}
             <motion.div
-              className="col-lg-6 text-lg-end mt-4 mt-lg-0 d-flex justify-content-lg-end justify-content-center"
+              className="col-lg-6 text-lg-end mt-4 mt-lg-0 d-flex justify-content-center"
               initial={{ x: 150, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 1.2, ease: "easeOut" }}

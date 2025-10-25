@@ -35,6 +35,9 @@
   font-size: 14px;
 }
 
+
+
+
 @media (max-width: 768px) {
   .book-container {
     transform: none !important; /* Disable the book animation */
@@ -65,16 +68,19 @@
 
 .about-left,
 .about-right {
-  flex: 1 1 500px;
+  flex: 1 1;
   background: #fff;
   padding: 40px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
   transition: all 0.6s ease;
 }
 
+
+
 .about-left {
   border-radius: 12px 0 0 12px;
   transform-origin: right center;
+  font-size: 0.95rem;
 }
 
 .about-right {
@@ -150,4 +156,8 @@
     padding: 30px 24px;
     border-radius: 12px;
   }
+
+
+
+
 }
