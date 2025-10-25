@@ -7,6 +7,7 @@ import {
   FaReact,
   FaBootstrap,
   FaHtml5,
+  // FaJa,
   FaCss3Alt,
   FaNodeJs,
   FaBolt,
@@ -43,6 +44,7 @@ export default function About() {
     { name: "Bootstrap", icon: <FaBootstrap size={22} color="#7952B3" /> },
     { name: "HTML", icon: <FaHtml5 size={22} color="#E34F26" /> },
     { name: "CSS", icon: <FaCss3Alt size={22} color="#1572B6" /> },
+    //  { name: "Javascript", icon: <FaJavascript size={22} color="#1572B6" /> },
     { name: "Node.js", icon: <FaNodeJs size={22} color="#3C873A" /> },
     { name: "Performance", icon: <FaBolt size={22} color="#f5b300" /> },
   ];

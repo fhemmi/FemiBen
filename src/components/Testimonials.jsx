@@ -22,7 +22,7 @@ const quotes = [
   {
     name: "Alabi Anu",
     role: "Entrepreneur",
-    text: "We work with a lot of freelancers, but Femi stands out. His design sense is clean and he’s reliable — he delivers what he promises, and quickly.",
+    text: "We work with a lot of freelancers, but Femi stands out. His design sense is clean and he’s reliable, he delivers what he promises, and quickly.",
     avatar: ngoziImg,
   },
   {
