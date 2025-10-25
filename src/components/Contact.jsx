@@ -1,9 +1,7 @@
-
-
 import React, { useRef, useState } from "react";
 import { FaWhatsapp, FaEnvelope } from "react-icons/fa";
 import { collection, addDoc, Timestamp } from "firebase/firestore";
-import { db } from "../firebase";
+import db from "./firebaseDB"; // ✅ fixed import
 import "../styles/Contact.css";
 
 export default function Contact() {
@@ -52,14 +50,12 @@ export default function Contact() {
             <div className="contact-card">
               <div className="contact-subtitle">Let’s work together</div>
               <p className="contact-text">
-                Tell me about your project and timeline. I will respond as soon
-                as possible.
+                Tell me about your project and timeline. I’ll respond as soon as possible.
               </p>
               <div className="contact-location">
                 <div>Location: Lagos, Nigeria</div>
               </div>
 
-              {/* Social icons */}
               <div className="contact-socials">
                 <a
                   href="https://wa.me/2348124023479"
@@ -112,12 +108,9 @@ export default function Contact() {
                 <div className="contact-success">
                   <h3>✅ Message Sent Successfully!</h3>
                   <p>
-                    Thanks for reaching out. I’ll get back to you as soon as
-                    possible.
+                    Thanks for reaching out. I’ll get back to you as soon as possible.
                   </p>
-                  <button onClick={handleNewMessage}>
-                    Send Another Message
-                  </button>
+                  <button onClick={handleNewMessage}>Send Another Message</button>
                 </div>
               )}
             </div>
